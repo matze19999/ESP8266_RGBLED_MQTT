@@ -189,7 +189,7 @@ void callback(char* topic, byte* payload, unsigned int length) {
     if (ioBrokerColor == "aqua") aqua();
   }
   if (strTopic == "ANAVI/rainbowspeed") {
-    rainbowspeed = strPayload.toInt();
+    rainbowspeed = abs(strPayload.toInt());
   }
 }
 
