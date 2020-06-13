@@ -121,7 +121,7 @@ void aqua() {
   analogWrite(pinLedGreen, brightness);
   analogWrite(pinLedBlue, brightness);
   client.publish("ANAVI/color", "blue");
-  Serial.println("Purple wird gestartet");
+  Serial.println("Aqua wird gestartet");
 }
 
 void rainbow() { 
